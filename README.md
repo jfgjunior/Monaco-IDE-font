@@ -20,6 +20,18 @@ Just install it into your system and select in our favorite editor/IDE
 fc-cache -f -v
 ```
 3. Select Monaco font the Editor's settings
+<details>
+  <summary>Android Studio</summary>
+
+  After installation, if the font isn't available on ``File -> Settings -> Editor -> Font``
+
+  1. Move the font to ``jre/lib/fonts`` in my case:
+  ```bash
+  sudo cp ~/Downloads/Monaco.ttf /opt/android-studio/jre/jre/lib/fonts`
+  ```
+  2. Restart Android Studio (close and open it again)
+  3. Go to `File -> Settings -> Editor -> Font`, the font should be available
+</details>
 
 ### Windows
 1. Open ``Monaco.ttf`` and press `Install`
